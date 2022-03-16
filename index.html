@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish Generator</title>
+    <link rel="stylesheet" href="CSS/index-style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="Favicon.png" type="image/png">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Text Generator</a></li>
+            <li><a href="card.html">Card Generator</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container">
+            <div class="container-header">
+                <form>
+                    <input type="text" placeholder="Enter Name" id="name"> 
+                    <select id="relation" placeholder="select">
+                        <option value="Friend">Friend</option>
+                        <option value="BestFriend">Best Friend</option>
+                        <option value="Brother">Brother</option>
+                        <option value="Sister">Sister</option>
+                        <option value="Mother">Mother</option>
+                        <option value="Father">Father</option>
+                        <option value="Grandparent">Grandparent</option>
+                        <option value="Partner">Partner</option>
+                        <option value="Son">Son</option>
+                        <option value="Daughter">Daughter</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </form>
+                <button class="cssbuttons-io-button generate"> <span class="btn-text"> <span class="Gbtn-text">Generate </span> </span>
+                    <div class="icon">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+            <div class="container-body">
+                <p></p>
+            </div>
+            <div class="btn-group">
+                <!-- copy button -->
+                <div class="copied">Copied To Clipboard</div>
+                <i class="fa fa-clone"></i>
+                <a href="https://api.whatsapp.com/send?text=Hi" target="_blank" class="wapp-share-button">
+                     <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world" target="_blank">
+                         <i class="fab fa-twitter"></i>
+                </a>
+            </div>       
+        </section>
+    </main>
+</body>
+<script src="/JS/index.js"></script>
+
+</html>
