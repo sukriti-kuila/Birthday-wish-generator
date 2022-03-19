@@ -18,7 +18,7 @@ li a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: #4CAF50;
+    color: #000;
 }
 a:hover{
     color: black;
@@ -28,6 +28,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 600px;
 }
 .container{
     display: flex;
@@ -35,7 +36,7 @@ main{
     align-items: center;
     flex-direction: column;
     margin-top: 5%;  
-    /* height: 100px; */
+    height: 200px;
     width: 500px;
     padding: 10px;
     border-radius: 4px;
@@ -56,15 +57,15 @@ main{
     transform: scale(1.01);
 }
 input{
-    width: 58%;
+    width: 50%;
     padding: 2.9px;
-    border: 2px solid purple;
+    border: 2px solid #f07070;
     border-radius: 3px;
 }
 select{
     width: 36%;
     padding: 2.05px;
-    border: 2px solid purple;
+    border: 2px solid #f07070;
     border-radius: 3px;
 }
 
@@ -112,7 +113,7 @@ a{
 /*! Generate Button */
 /* From cssbuttons.io by @adamgiebl */
 .cssbuttons-io-button {
-    background: #A370F0;
+    background: #f07070;
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -124,7 +125,7 @@ a{
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: inset 0 0 1.6em -0.6em #f07070;
     overflow: hidden;
     position: relative;
     height: 1.67em;
@@ -142,7 +143,7 @@ a{
     height: 1.2em;
     width: 1.8em;
     border-radius: 0.3em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #f07070;
     right: 0.3em;
     transition: all 0.3s;
    }
@@ -154,7 +155,7 @@ a{
    .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color:#f07070;
    }
    
    .cssbuttons-io-button:hover .icon svg {
@@ -164,4 +165,3 @@ a{
    .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
    }
-
